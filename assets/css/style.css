@@ -3,7 +3,6 @@ body {
   font-size: 16px;
   line-height: 1;
 }
-
 textarea{
   background: transparent;
   border: none;
@@ -12,57 +11,58 @@ textarea{
   border-left: 1px solid black;
   padding: 10px;
 }
-
 .jumbotron {
   text-align: center;
   background-color: transparent;
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
+  margin-bottom: 20px;
 }
-
 .description{
   white-space: pre-wrap;
 }
-
 .time-block{
   text-align: center;
   border-radius: 15px;
 }
-
 .row {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;;
 }
-
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
 }
-
 .past {
   background-color: #d3d3d3;
   color: white;
 }
-
 .present {
   background-color: #ff6961;
   color: white;
 }
-
 .future {
   background-color: #77dd77;
   color: white;
 }
-
+.row {
+  
+  height: 120px;
+}
+.col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6,
+.col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  height: 100px;
+}
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
+  height: 100px;
 }
 
 .saveBtn i:hover {
