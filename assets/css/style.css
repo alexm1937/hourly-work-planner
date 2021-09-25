@@ -28,7 +28,7 @@ textarea{
 }
 .row {
   white-space: pre-wrap;
-  height: 80px;
+  height: 120px;
   border-top: 1px solid white;;
 }
 .hour {
@@ -48,9 +48,8 @@ textarea{
   background-color: #77dd77;
   color: white;
 }
-.row {
-  
-  height: 120px;
+span {
+  padding: 25px;
 }
 .col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6,
 .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
@@ -64,7 +63,6 @@ textarea{
   color: white;
   height: 100px;
 }
-
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
